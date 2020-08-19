@@ -1,0 +1,109 @@
+body {
+    width: 1520px;
+    background-color: #7373bb;
+    margin: auto;
+    font-family: 'Montserrat', sans-serif;
+}
+header .heading {
+    text-align: center;
+    color: white;
+}
+.survey {
+    width: 750px;
+    margin: auto;
+    padding: 25px;
+    color: white;
+    background-color: #2a2a4a;
+    border-radius: 8px;
+}
+.survey form label {
+    font-size: 25px;
+}
+.survey form [type=text] {
+    display: inline-block;
+    width: 700px;
+    height: auto;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+}
+.survey form [type=text]:focus {
+    box-shadow:0 0 5px red;
+    outline: none;
+}
+.survey form [type=email] {
+    display: inline-block;
+    width: 700px;
+    height: auto;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+}
+.survey form [type=email]:focus {
+    box-shadow:0 0 5px red;
+    outline: none;
+}
+.survey form [type=number] {
+    display: inline-block;
+    width: 700px;
+    height: auto;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+}
+.survey form [type=number]:focus {
+    box-shadow:0 0 5px red;
+    outline: none;
+}
+.survey form #dropdown {
+    display: inline-block;
+    width: 718px;
+    height: auto;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+}
+.survey form #dropdown:focus {
+    box-shadow:0 0 5px red;
+    outline: none;
+}
+.survey form #job-role {
+    display: inline-block;
+    width: 718px;
+    height: auto;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+}
+.survey form #job-role:focus {
+    box-shadow:0 0 5px red;
+    outline: none;
+}
+.survey form textarea {
+    display: inline-block;
+    width: 680px;
+    height: 100px;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 60px;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+}
+.survey #submit {
+    background-color: #37af63;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 18px 320px;
+}

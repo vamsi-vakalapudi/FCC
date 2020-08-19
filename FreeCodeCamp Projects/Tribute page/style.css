@@ -1,0 +1,56 @@
+main {
+    width: auto;
+    font-family: 'Lato', sans-serif;
+    background-color: #eeeeee;
+    overflow: hidden;
+}
+
+.title {
+    margin: auto;
+    text-align: center;
+    padding-top: 25px;
+}
+.title .title-txt h1 {
+    font-size: 35px;
+}
+.title .title-img {
+    width: 100%;
+    height: auto;
+    padding: -20px;
+    background-color: white;
+    margin: auto;
+    border-radius: 5px;
+}
+.responsive {
+    max-width: 100%;
+    display: inline-block;
+    height: auto;
+    margin: 12px auto;
+}
+.title .title-img figure figcaption {
+    padding-bottom: 14px;
+}
+.title .timeline  {
+    width: 100%;
+    margin: auto;
+}
+
+.timeline .timeline-data h2{
+    margin: 40px auto;
+    text-align: center;
+}
+.timeline .timeline-data ul {
+    padding: 0px 480px 0px 480px;
+}
+.timeline .timeline-data ul li {
+    padding: 12px;
+}
+.timeline .timeline-data .data-txt {
+    display: inline-block;
+    padding: 0px 460px 0px 460px;
+    font-weight: bolder;
+}
+.timeline .timeline-data h3 {
+    text-align: center;
+    padding-bottom: 40px;
+}

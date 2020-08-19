@@ -1,0 +1,137 @@
+body {
+    background-color: #eeeeee;
+    margin: auto;
+    font-family: 'Roboto', sans-serif;
+}
+header {
+    display: flex;
+    position: sticky;
+    padding: 10px;
+    top: 0px;
+    background-color: #eeeeee;
+}
+header .web-logo {
+    width: 25%;
+}
+header .web-logo img {
+    width: 300px;
+    height: 35px;
+}
+header .nav-bar {
+    margin-left: 600px;
+}
+header .nav-bar a {
+    margin: 50px;
+    text-decoration: none;
+    color: #000;
+}
+.title {
+    text-align: center;
+}
+.title .search-button [type=email] {
+    width: 280px;
+    height: 25px;
+}
+.title .submit {
+    margin-top: 15px;
+}
+.title .submit a {
+    color: black;
+    display: inline-block;
+    padding: 0px 25px;
+    height: 25px;
+    padding-top: 6px;
+    background-color: #f1c40f;
+    text-decoration: none;
+}
+.title .submit a:hover {
+    background-color: #ff8c00;
+}
+.web-data {
+    width: 800px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
+.web-data .d1 {
+    margin-top: 40px;
+}
+.web-data .d2 {
+    margin-top: 15px;
+}
+.web-data .d3 {
+    margin-top: 15px;
+}
+.links {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 35px;
+}
+.container {
+    width: 1000px;
+    margin: auto;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 25px;
+}
+.slide {
+    flex: 0 0 32%;
+    width: 32%;
+    height: 330px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.slide h3 {
+    text-align: center;
+    margin-top: 0px;
+    padding: 10px 30px;
+    background-color: #dddddd;
+}
+.slide h1,p {
+    text-align: center;
+}
+.slide p {
+    margin-bottom: 20px;
+}
+.slide a {
+    display: inline-block;
+    text-align: center;
+    padding: 10px 30px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    background-color: #f1c40f;
+    margin: 5px 90px 10px 90px;
+}
+.slide a:hover {
+    background-color: orange;
+}
+footer {
+    margin: auto;
+    width: 1000px;
+    height: 80px;
+    background-color: #dddddd;
+}
+footer nav {
+    margin-left: 720px;
+}
+footer nav a {
+    margin: auto;
+    display: inline-block;
+    padding: 20px;
+    text-decoration: none;
+    color: black;
+}
+footer span {
+    margin-left: 725px;
+}
+@media (max-width: 650px) {
+    .web-img {
+      margin-top: 15px;
+      width: 100%;
+      position: relative;
+    }
+  }

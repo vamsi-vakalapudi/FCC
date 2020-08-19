@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="style2.css" type="text/css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;1,500;1,600&display=swap" rel="stylesheet">
+    <title>FCC: Survey Form</title>
+</head>
+<body>
+    <header>
+        <div class="heading">
+            <h2 id="title">freeCodeCamp Survey Form</h2>
+            <p id="description">Thank you for taking the time to help us improve the platform</p>
+        </div>
+    </header>
+    <section class="survey">
+        <form id="survey-form">
+            <label for="name" id="name-label">Name</label><br><br>
+            <input id="name" type="text" placeholder="Enter your name" title="Please fill out this field">
+            <label for="emailid" id="email-label">Email</label><br><br>
+            <input id="emailid" type="email" placeholder="Enter your Email" title="Please fill out this field">
+            <label for="age" id="number-label">Age (Optional)</label><br><br>
+            <input id="age" type="number" placeholder="Age" title="Please fill out this field" min="10" max="100" step="10">
+            <label for="dropdown">Which option best describes your current role?</label><br><br>
+            <select id="dropdown" name="choosefrom">
+                <option value="choos">Select current role</option>
+                <option value="volvo">Student</option>
+                <option value="saab">Full Time Job</option>
+                <option value="mercedes">Full Time Learner</option>
+                <option value="audi">Prefer not to see</option>
+                <option value="audi">Other</option>
+            </select>
+            <label for="radiobutt">Would you recommend freeCodeCamp to a friend?</label><br><br>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Definitely</label><br>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Maybe</label><br>
+            <input type="radio" id="other" name="gender" value="other">
+            <label for="other">Not sure</label><br><br>
+            <label for="job-role">What is your favorite feature of freeCodeCamp?</label><br><br>
+            <select id="job-role" name="choosefrom">
+                <option value="choos">Select an option</option>
+                <option value="volvo">Challenges</option>
+                <option value="saab">Projects</option>
+                <option value="mercedes">Community</option>
+                <option value="audi">Open Source</option>
+            </select>
+            <label for="checkboxbutt">What would you like to see improved? (Check all that apply)</label><br><br> 
+            <input type="checkbox" id="male" name="gender" value="male">
+            <label for="male">Definitely</label><br>
+            <input type="checkbox" id="female" name="gender" value="female">
+            <label for="female">Maybe</label><br>
+            <input type="checkbox" id="other" name="gender" value="other">
+            <label for="other">Not sure</label><br>
+            <input type="checkbox" id="male" name="gender" value="male">
+            <label for="male">Definitely</label><br>
+            <input type="checkbox" id="female" name="gender" value="female">
+            <label for="female">Maybe</label><br>
+            <input type="checkbox" id="other" name="gender" value="other">
+            <label for="other">Not sure</label>
+            <label for="textarea"></label><br><br>
+            <textarea id="textarea">Enter your comment here...</textarea>
+            <button href="#" id="submit">Submit</button>
+        </form>
+    </section>
+</body>
+</html>
